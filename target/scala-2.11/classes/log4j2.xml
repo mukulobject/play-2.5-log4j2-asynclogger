@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration>
+
+    <!-- default log file names in case it fails to read it from property file -->
+    <Properties>
+        <Property name="asyncFileName">logs/async.log</Property>
+        <Property name="syncFileName">logs/sync.log</Property>
+    </Properties>
+
+    <CustomLevels>
+        <CustomLevel name="AUDIT" intLevel="350"/>
+        <CustomLevel name="NOTICE" intLevel="250"/>
+    </CustomLevels>
+
+    <Appenders>
+        <!-- Async Loggers will auto-flush in batches, so switch off immediateFlush. -->
+        <RandomAccessFile name="ASYNC-FILE" fileName="${asyncFileName}"
+                          immediateFlush="false" append="false">
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C (%F:%L) - %X{requestId} %m%n"/>
+        </RandomAccessFile>
+
+        <RandomAccessFile name="SYNC-FILE" fileName="${syncFileName}"
+                          immediateFlush="true" append="false">
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C (%F:%L) - %X{requestId} %m%n"/>
+        </RandomAccessFile>
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C (%F:%L) - %X{requestId} %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+
+        <!-- AsyncLogger, pattern layout actually uses location, so we need to include it -->
+        <AsyncLogger name="ASYNC" level="debug" includeLocation="true" additivity="false">
+            <AppenderRef ref="ASYNC-FILE"/>
+        </AsyncLogger>
+
+        <Logger name="play" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+        </Logger>
+
+        <!-- root loggers -->
+        <Root level="debug" includeLocation="true">
+            <AppenderRef ref="SYNC-FILE"/>
+        </Root>
+
+    </Loggers>
+</Configuration>
