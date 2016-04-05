@@ -1,4 +1,0 @@
-[debug] Copy resource mappings: 
-[debug] 	(/Users/mukul/work/Projects/Experimental/play-2.5-log4j2-asynclogger/conf/application.conf,/Users/mukul/work/Projects/Experimental/play-2.5-log4j2-asynclogger/target/scala-2.11/classes/application.conf)
-[debug] 	(/Users/mukul/work/Projects/Experimental/play-2.5-log4j2-asynclogger/conf/log4j2.xml,/Users/mukul/work/Projects/Experimental/play-2.5-log4j2-asynclogger/target/scala-2.11/classes/log4j2.xml)
-[debug] 	(/Users/mukul/work/Projects/Experimental/play-2.5-log4j2-asynclogger/conf/routes,/Users/mukul/work/Projects/Experimental/play-2.5-log4j2-asynclogger/target/scala-2.11/classes/routes)
