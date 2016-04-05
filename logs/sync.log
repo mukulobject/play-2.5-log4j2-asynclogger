@@ -1,0 +1,45 @@
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:71) -  Using SLF4J as the default logging framework
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.eventLoopThreads: 16
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  java.nio.Buffer.address: available
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  sun.misc.Unsafe.theUnsafe: available
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:71) -  sun.misc.Unsafe.copyMemory: available
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  java.nio.Bits.unaligned: true
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  Java version: 8
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.noUnsafe: false
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  sun.misc.Unsafe: available
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.noJavassist: false
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:71) -  Javassist: available
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.tmpdir: /var/folders/yd/bfzhnsn11hs0n1jb1nwd8tsm0000gn/T (java.io.tmpdir)
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.noPreferDirect: false
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.noKeySetOptimization: false
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.selectorAutoRebuildThreshold: 512
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  Generated: io.netty.util.internal.__matchers__.io.netty.channel.ChannelMatcher
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:71) -  -Dio.netty.initialSeedUniquifier: 0x402c45d90d672eb9 (took 0 ms)
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.allocator.type: unpooled
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.threadLocalDirectBufferSize: 65536
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:86) -  Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1)
+DEBUG | 2016-04-05 11:35:13 | [pool-4-thread-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:81) -  /proc/sys/net/core/somaxconn: 128 (non-existent)
+DEBUG | 2016-04-05 11:35:14 | [play-dev-mode-akka.actor.default-dispatcher-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:81) -  -Dio.netty.buffer.bytebuf.checkAccessible: true
+DEBUG | 2016-04-05 11:35:14 | [play-dev-mode-akka.actor.default-dispatcher-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:81) -  -Dio.netty.leakDetection.level: simple
+DEBUG | 2016-04-05 11:35:14 | [play-dev-mode-akka.actor.default-dispatcher-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:81) -  -Dio.netty.leakDetection.maxRecords: 4
+DEBUG | 2016-04-05 11:35:14 | [play-dev-mode-akka.actor.default-dispatcher-2] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  Generated: io.netty.util.internal.__matchers__.io.netty.handler.codec.http.HttpObjectMatcher
+DEBUG | 2016-04-05 11:35:14 | [netty-event-loop-3] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  -Dio.netty.recycler.maxCapacity.default: 262144
+DEBUG | 2016-04-05 11:35:14 | [netty-event-loop-3] io.netty.util.internal.logging.Slf4JLogger (Slf4JLogger.java:76) -  java.nio.ByteBuffer.cleaner(): available
+DEBUG | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] net.sf.ehcache.config.ConfigurationFactory (ConfigurationFactory.java:98) -  Configuring ehcache from URL: jar:file:/Users/mukul/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.1.jar!/ehcache-default.xml
+DEBUG | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] net.sf.ehcache.config.ConfigurationFactory (ConfigurationFactory.java:150) -  Configuring ehcache from InputStream
+DEBUG | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] net.sf.ehcache.config.BeanHandler (BeanHandler.java:271) -  Ignoring ehcache attribute xmlns:xsi
+DEBUG | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] net.sf.ehcache.config.BeanHandler (BeanHandler.java:271) -  Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+DEBUG | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] net.sf.ehcache.CacheManager (CacheManager.java:1036) -  Creating new CacheManager with config URL: jar:file:/Users/mukul/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.5.1.jar!/ehcache-default.xml
+DEBUG | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] net.sf.ehcache.util.PropertyUtil (PropertyUtil.java:88) -  propertiesString is null.
+DEBUG | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] net.sf.ehcache.config.ConfigurationHelper (ConfigurationHelper.java:185) -  No CacheManagerEventListenerFactory class specified. Skipping...
+DEBUG | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] net.sf.ehcache.Cache (Cache.java:955) -  No BootstrapCacheLoaderFactory class specified. Skipping...
+DEBUG | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] net.sf.ehcache.Cache (Cache.java:929) -  CacheWriter factory not configured. Skipping...
+DEBUG | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] net.sf.ehcache.config.ConfigurationHelper (ConfigurationHelper.java:96) -  No CacheExceptionHandlerFactory class specified. Skipping...
+INFO  | 2016-04-05 11:35:15 | [ForkJoinPool-1-worker-1] play.Logger$ALogger (Logger.java:388) -  ApplicationTimer demo: Starting application at 2016-04-05T18:35:15.847Z
+INFO  | 2016-04-05 11:35:15 | [application-akka.actor.default-dispatcher-4] akka.event.slf4j.Slf4jLogger$$anonfun$receive$1 (Slf4jLogger.scala:85) -  Slf4jLogger started
+DEBUG | 2016-04-05 11:35:15 | [application-akka.actor.default-dispatcher-4] akka.event.slf4j.Slf4jLogger$$anonfun$receive$1$$anonfun$applyOrElse$4 (Slf4jLogger.scala:82) -  logger log1-Slf4jLogger started
+DEBUG | 2016-04-05 11:35:15 | [application-akka.actor.default-dispatcher-4] akka.event.slf4j.Slf4jLogger$$anonfun$receive$1$$anonfun$applyOrElse$4 (Slf4jLogger.scala:82) -  Default Loggers started
+DEBUG | 2016-04-05 11:35:16 | [application-akka.actor.default-dispatcher-4] controllers.HomeController (HomeController.java:26) - unique_request_id_123456 async debug here ...
+DEBUG | 2016-04-05 11:51:38 | [application-akka.actor.default-dispatcher-4] akka.event.slf4j.Slf4jLogger$$anonfun$receive$1$$anonfun$applyOrElse$4 (Slf4jLogger.scala:82) -  shutting down: StandardOutLogger started
