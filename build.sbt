@@ -12,5 +12,6 @@ libraryDependencies ++= Seq(
   javaWs,
   "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.5",
   "org.apache.logging.log4j" % "log4j-core" % "2.5",
-  "org.apache.logging.log4j" % "log4j-api" % "2.5"
+  "org.apache.logging.log4j" % "log4j-api" % "2.5",
+  "com.lmax" % "disruptor" % "3.3.4"
 )
